@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import MyForm from '../components/myform'
-import MenuBtn from '../components/menubtn'
-import Mobmen from '../components/mobmenu'
+import Head from "next/head"
+import MyForm from "../components/myform"
+import MenuBtn from "../components/menubtn"
+import Mobmen from "../components/mobmenu"
 
 export default function Home() {
 
@@ -59,7 +59,7 @@ export default function Home() {
             More than just shorter links
           </h1>
           <p className="text-2xl text-center text-gray-400 lg:max-w-md lg:text-left">
-          Build your brand's recognition and get detailed insights on
+          Build your brand`s recognition and get detailed insights on
           how your
           links are performing.
           </p>
@@ -171,7 +171,7 @@ export default function Home() {
             Brand Recognition
           </h5>
           <p className="text-center text-gray-400 md:text-left">
-            Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+            Boost your brand recognition with each click. Generic links don`t mean a thing. Branded links help instil confidence in your content.
           </p>
         </div>
 
