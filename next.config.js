@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        // hostname: 'example.com',
+        hostname: "shortly-web-leitel98.vercel.app/",
         // port: '',
         pathname: './src/**',
       },

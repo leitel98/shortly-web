@@ -2,6 +2,7 @@ import Head from "next/head"
 import MyForm from "../components/myform"
 import MenuBtn from "../components/menubtn"
 import Mobmen from "../components/mobmenu"
+import Image from 'next/image'
 
 export default function Home() {
 
@@ -18,7 +19,7 @@ export default function Home() {
         {/* flex container for logo/menu */}
         <div className="flex items-center space-x-20">
           {/* logo */}
-          <img src="logo.svg" alt="" />
+          <Image src="logo.svg" alt="" />
           {/* left menu */}
           <div className="hidden space-x-8 font-bold lg:flex">
             <a href="#" className="text-grayishViolet hover:text-veryDarkViolet">
@@ -72,7 +73,7 @@ export default function Home() {
 
         {/* image */}
         <div className="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
-          <img src="illustration-working.svg" alt="" />
+          <Image src="illustration-working.svg" alt="" />
         </div>
       </div>
     </section>
@@ -164,7 +165,7 @@ export default function Home() {
           <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
             {/* image container for bg n center */}
             <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
-              <img src="icon-brand-recognition.svg" alt="" />
+              <Image src="icon-brand-recognition.svg" alt="" />
             </div>
           </div>
           <h5 className="pt-6 text-xl font-bold text-center capitalize md:text-left">
@@ -181,7 +182,7 @@ export default function Home() {
           <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
             {/* image container for bg n center */}
             <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
-              <img src="icon-detailed-records.svg" alt="" />
+              <Image src="icon-detailed-records.svg" alt="" />
             </div>
           </div>
           <h5 className="pt-6 text-xl font-bold text-center capitalize md:text-left">
@@ -201,7 +202,7 @@ export default function Home() {
           <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
             {/* image container for bg n center */}
             <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
-              <img src="icon-fully-customizable.svg" alt="" />
+              <Image src="icon-fully-customizable.svg" alt="" />
             </div>
           </div>
           <h5 className="pt-6 text-xl font-bold text-center capitalize md:text-left">
@@ -230,7 +231,7 @@ export default function Home() {
     <footer className="py-16 bg-veryDarkViolet">
       <div className="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
         {/* logo */}
-        <img src="logo.svg" alt="" />
+        <Image src="logo.svg" alt="" />
         {/* menus container */}
         <div className="flex flex-col space-y-16 md:space-x-20 md:flex-row md:space-y-0">
           {/* menu 1 */}
@@ -271,16 +272,16 @@ export default function Home() {
         {/* social cont */}
         <div className="flex space-x-6">
           <a href="#">
-            <img src="icon-facebook.svg" alt="" className="ficon" />
+            <Image src="icon-facebook.svg" alt="" className="ficon" />
           </a>
           <a href="#">
-            <img src="icon-twitter.svg" alt="" className="ficon" />
+            <Image src="icon-twitter.svg" alt="" className="ficon" />
           </a>
           <a href="#">
-            <img src="icon-pinterest.svg" alt="" className="ficon" />
+            <Image src="icon-pinterest.svg" alt="" className="ficon" />
           </a>
           <a href="#">
-            <img src="icon-instagram.svg" alt="" className="ficon" />
+            <Image src="icon-instagram.svg" alt="" className="ficon" />
           </a>
         </div>
       </div>
